@@ -46,3 +46,4 @@ QR generado y guardado como mi_codigo_qr.png
 ```
 
 El archivo `mi_codigo_qr.png` se guardará en el mismo directorio.
+# :D
