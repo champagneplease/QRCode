@@ -16,10 +16,10 @@ Antes de ejecutar el script, asegúrate de tener instalado lo siguiente:
 ## Instrucciones
 
 1. **Ejecuta el script**:  
-   Usa el siguiente comando en tu terminal, reemplazando `Qr.py` con el nombre del archivo del script:
+   Usa el siguiente comando en tu terminal
 
    ```bash
-   python3 Qr.py
+   python3 QR.py
    ```
 
 2. **Sigue las instrucciones**:  
@@ -31,10 +31,10 @@ Antes de ejecutar el script, asegúrate de tener instalado lo siguiente:
 
 ## Ejemplo de uso
 
-Supongamos que el script se llama `Qr.py`. Al ejecutarlo con el siguiente comando:
+Supongamos que el script se llama `QR.py`. Al ejecutarlo con el siguiente comando:
 
 ```bash
-python3 Qr.py
+python3 QR.py
 ```
 
 Aparecerá lo siguiente en la consola:
