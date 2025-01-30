@@ -1,7 +1,13 @@
 import qrcode
-import os
 
-img = qrcode.make(input('Inrgese un link para generar un QR: '))
-print(type(img))
+def generar_qr():
+    link = input("Ingrese un link para generar un QR: ")
+    name = input("Ingrese el nombre para guardar la imagen: ")
 
-img.save(input('Ingrese el nombre de la imagen: ')+'.png')
+    img = qrcode.make(link)
+    img.save(f'{name}.png')
+
+    print(f"QR generado y guardado como {name}.png")
+
+# Llamar función
+generar_qr()
