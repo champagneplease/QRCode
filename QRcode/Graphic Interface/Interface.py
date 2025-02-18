@@ -1,6 +1,7 @@
 import qrcode
 from tkinter import Tk, Label, Entry, Button, filedialog, messagebox
 
+
 def generar_qr():
     link = entry_link.get().strip()
     name = entry_nombre.get().strip()

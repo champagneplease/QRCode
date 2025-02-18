@@ -1,5 +1,6 @@
 import qrcode
 
+
 def generar_qr():
     link = input("Ingrese un link para generar un QR: ")
     name = input("Ingrese el nombre para guardar la imagen: ")
@@ -10,5 +11,6 @@ def generar_qr():
     img.save(f'{name}.png')
 
     print(f"QR generado y guardado como {name}.png")
+
 
 generar_qr()
